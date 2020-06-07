@@ -1,0 +1,47 @@
+mat-form-field {
+  padding: 2% !important;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.tomato {
+  background: #d50000;
+}
+
+.tangerine {
+  background-color: #f4511e !important;
+}
+
+.basil {
+  background: #0b8043;
+}
+
+.sage {
+  background: #33b679;
+}
+
+.blueberry {
+  background: #3f51b5;
+}
+
+.peacock {
+  background: #039be5;
+}
+
+.grape {
+  background: #8e24aa;
+}
+
+.graphite {
+  background: #616161;
+}
+
+.color-selector {
+  width: 50px;
+}
