@@ -1,9 +1,9 @@
-<mat-form-field matTooltip="Select Event Color" class="color-selector">
+<mat-form-field matTooltip="Select Color" class="color-selector">
   <span matPrefix class="dot" [style.background-color]="paletteColor"></span>
-  <mat-select (selectionChange)="paletteColorChange()" [(value)]="selectedEventColor">
+  <mat-select (selectionChange)="paletteColorChange()" [(value)]="selectedColor">
     <mat-option style="display: inline-flex !important;" class="text-center" [matTooltip]="color.color"
       *ngFor="let color of colors" [value]="color">
-      <span class="dot" [ngClass]="color.class"></span>
+      <span class="dot" [style.background-color]="color.background"></span>
     </mat-option>
   </mat-select>
 </mat-form-field>

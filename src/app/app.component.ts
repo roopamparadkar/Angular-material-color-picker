@@ -7,69 +7,49 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  selectedEventColor = {
+  selectedColor = {
     color: 'Peacock',
-    class: "peacock",
     background: "#039be5",
-    textColor: "#000000"
   };
-  paletteColor: any;
-  timeEnabled = false;
-  allDayEvent = true;
-  repeatEvent = false;
-  repeatDays = [];
+
+  paletteColor = "#039be5";
 
   colors = [
     {
       color: 'Tomato',
-      class: "tomato",
-      background: "#d50000",
-      textColor: "#ffffff"
+      background: "#d50000"
     },
     {
       color: 'Tangerine',
-      class: "tangerine",
-      background: "#f4511e",
-      textColor: "#ffffff"
+      background: "#f4511e"
     },
     {
       color: 'Sage',
-      class: "sage",
-      background: "#33b679",
-      textColor: "#ffffff"
+      background: "#33b679"
     },
     {
       color: 'Blueberry',
-      class: "blueberry",
-      background: "#3f51b5",
-      textColor: "#000000"
+      background: "#3f51b5"
     },
     {
       color: 'Peacock',
-      class: "peacock",
-      background: "#039be5",
-      textColor: "#000000"
+      background: "#039be5"
     },
     {
       color: 'Grape',
-      class: "grape",
-      background: "#8e24aa",
-      textColor: "#ffffff"
+      background: "#8e24aa"
     },
     {
       color: 'Graphite',
-      class: "graphite",
       background: "#616161",
-      textColor: "#ffffff"
     },
     {
       color: 'Basil',
-      class: "basil",
-      background: "#0b8043",
-      textColor: "#ffffff"
+      background: "#0b8043"
     }
   ];
+
   paletteColorChange() {
-    this.paletteColor = this.selectedEventColor.background;
+    this.paletteColor = this.selectedColor.background;
   }
 }
