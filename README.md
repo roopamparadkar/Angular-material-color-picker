@@ -2,7 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
-  Running Demo Here ... [Demo](https://stackblitz.com/edit/angular-ivy-cbw4hx).
+## Demo
+See the running app here. [Demo](https://stackblitz.com/edit/angular-ivy-cbw4hx).
 
 ## Development server
 
