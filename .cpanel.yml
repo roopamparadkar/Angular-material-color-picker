@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/makakbhw/Angular-Material-Color-Picker
+    - cp -R Angular-Material-Color-Picker $DEPLOYPATH
